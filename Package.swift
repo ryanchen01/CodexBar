@@ -86,9 +86,6 @@ let package = Package(
                     "CodexBarCore",
                 ],
                 path: "Sources/CodexBar",
-                resources: [
-                    .process("Resources"),
-                ],
                 swiftSettings: [
                     // Opt into Swift 6 strict concurrency (approachable migration path).
                     .enableUpcomingFeature("StrictConcurrency"),
